@@ -8,7 +8,8 @@ Laptop/
 │   ├── api.py                  # API FastAPI
 │   ├── config.py               # Конфигурация проекта
 │   ├── model.py                # Работа с ML-моделью
-│   └── schemas.py              # Валидация данных
+│   ├── schemas.py              # Валидация данных
+│   └── security_utils.py       # Методы защиты данных
 ├── data/
 │   └── Laptop_price.csv        # Датасет для обучения
 ├── models/
